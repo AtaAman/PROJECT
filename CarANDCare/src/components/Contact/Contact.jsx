@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Contect() {
-  return (
-    <div>Contact</div>
-  )
-}
 
-export default Contect
+export default function Contact(){
+  return(
+    <>
+      <h1>Lorem ipsum dolor sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea numquam ratione harum distinctio perferendis excepturi!</h1>
+    </>
+  )
+};

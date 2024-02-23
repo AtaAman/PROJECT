@@ -40,7 +40,7 @@ export default function CarRepair() {
         <ServiceCards icon={icon6} title="Engine Services" />
       </div>
 
-      <div className="flex flex-col mt-10 p-10 mb-10 bg-slate-300 justify-center items-center">
+      <div className="flex flex-col mt-10 p-20 bg-slate-300 justify-center items-center">
         <p className="lg:text-3xl md:text-2xl text-3xl font-semibold">
           OUR LATEST SPECIALS
         </p>

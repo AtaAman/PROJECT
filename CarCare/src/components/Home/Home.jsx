@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex flex-col flex-shrink  pt-5 mt-5 justify-center gap-7 items-start max-w-[50%]">
           <p
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="205"
             className="lg:text-3xl md:text-2xl text-3xl text-black font-semibold"
           >
             Hello Car Lovers! get

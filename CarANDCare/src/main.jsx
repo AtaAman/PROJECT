@@ -5,8 +5,8 @@ import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Home from "./components/Home/Home"
 import Services from "./components/Services/Services"
-import Galary from "./components/Galary/Galary"
 import Contact from "./components/Contact/Contact"
+import CarRepair from './components/Galary/CarRepair.jsx'
 
 
 // m1
@@ -43,7 +43,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<App />}>
       <Route path='' element={<Home />} />
       <Route path='services' element={<Services />} />
-      <Route path='galary' element={<Galary />} />
+      <Route path='galary' element={<CarRepair />} />
       <Route path='contact' element={<Contact />} />
     </Route>
   )

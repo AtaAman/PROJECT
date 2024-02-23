@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -18,6 +17,8 @@ export default function Header() {
               className="mr-3 h-14"
               alt="Logo"
             />
+            <p className="text-red-800 font-bold text-3xl">Car</p>
+            <p className="font-semibold text-2xl">Care</p>
           </Link>
           <div
             className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
@@ -58,7 +59,7 @@ export default function Header() {
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
                 >
-                  Galary
+                  CarRepair
                 </NavLink>
               </li>
 
@@ -121,7 +122,7 @@ export default function Header() {
                   } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                 }
               >
-                Galary
+                CarRepair
               </NavLink>
             </li>
 

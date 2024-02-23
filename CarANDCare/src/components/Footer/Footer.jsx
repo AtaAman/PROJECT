@@ -46,7 +46,7 @@ export default function Footer() {
                                         ` py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 md:p-0`
                                     }
                                 >
-                                    Galary
+                                    CarRepair
                                 </NavLink>
                             </li>
 
@@ -110,7 +110,6 @@ export default function Footer() {
                 </div>
 
                 <hr className="my-6 border-orange-200 sm:mx-auto lg:my-8" />
-                
                 <div className="sm:flex sm:items-center sm:text-center sm:justify-center">
                     <span className="text-sm text-gray-500 text-center">
                         © 2023

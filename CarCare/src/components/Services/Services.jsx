@@ -47,7 +47,7 @@ const carList = [
     name: "BMW UX",
     price: 100,
     image: car3,
-  }
+  },
 ];
 
 const skillsData = [
@@ -80,25 +80,27 @@ const skillsData = [
   },
 ];
 
-
 const testimonialData = [
   {
     name: "Dilshad",
-    image: "https://images.pexels.com/photos/20220697/pexels-photo-20220697/free-photo-of-man-in-flat-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image:
+      "https://images.pexels.com/photos/20220697/pexels-photo-20220697/free-photo-of-man-in-flat-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    star:"⭐⭐⭐⭐"
+    star: "⭐⭐⭐⭐",
   },
   {
     name: "Satya",
-    image: "https://images.pexels.com/photos/14966493/pexels-photo-14966493/free-photo-of-man-wearing-jumper-and-sunglasses.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image:
+      "https://images.pexels.com/photos/14966493/pexels-photo-14966493/free-photo-of-man-wearing-jumper-and-sunglasses.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    star:"⭐⭐⭐⭐⭐"
+    star: "⭐⭐⭐⭐⭐",
   },
   {
     name: "Sabir",
-    image: "https://images.pexels.com/photos/20225755/pexels-photo-20225755/free-photo-of-model-in-a-black-fedora-and-white-shirt.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image:
+      "https://images.pexels.com/photos/20225755/pexels-photo-20225755/free-photo-of-model-in-a-black-fedora-and-white-shirt.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    star:"⭐⭐⭐⭐"
+    star: "⭐⭐⭐⭐",
   },
 ];
 
@@ -106,17 +108,35 @@ const Services = () => {
   return (
     <div>
       <div className="flex flex-col mt-10 flex-wrap justify-center items-center">
-        <h1 className="lg:text-5xl md:text-4xl text-4xl font-bold">
-        Save <span className="text-red-800" >big</span> with <br /> our cheap car rental!
+        <h1
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          className="lg:text-5xl md:text-4xl text-4xl font-bold"
+        >
+          Save <span className="text-red-800">big</span> with <br /> our cheap
+          car rental!
         </h1>
-        <p className="text-gray-600 mt-6">
+        <p
+          data-aos="zoom-in"
+          data-aos-delay="800"
+          className="text-gray-600 mt-6"
+        >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
-          nemo ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, nemo!
+          nemo ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Repellendus, nemo!
         </p>
         <div>
-          <div className="flex flex-wrap mt-11 gap-y-16 justify-around">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="1000"
+            className="flex flex-wrap mt-11 gap-y-16 justify-around"
+          >
             {carList.map((data) => (
-              <div className="h-[220px] w-[300px] border-2 bg-slate-200 border-gray-300 hover:border-primary p-3 rounded-xl group">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="300"
+                className="h-[220px] w-[300px] border-2 bg-slate-200 border-gray-300 hover:border-primary p-3 rounded-xl group"
+              >
                 <div className="w-full h-[120px]">
                   <img
                     src={data.image}
@@ -146,10 +166,18 @@ const Services = () => {
 
       <div className="flex flex-wrap flex-col items-center justify-around mt-5 pt-5">
         <div className="flex flex-col flex-shrink justify-center pt-5 mt-5 items-center">
-          <p className="lg:text-5xl lg:pl-10 md:pl-10 md:text-3xl text-4xl font-semibold text-red-800">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="lg:text-5xl lg:pl-10 md:pl-10 md:text-3xl text-4xl font-semibold text-red-800"
+          >
             Car Wash
           </p>
-          <p className="text-xl text-center pt-5">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="400"
+            className="text-xl text-center pt-5"
+          >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
             nemo ab? Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Impedit consequatur nostrum, sit numquam repudiandae atque placeat
@@ -159,7 +187,11 @@ const Services = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center">
-          <div className="items-center justify-center">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="600"
+            className="items-center justify-center"
+          >
             <img src={carwash} alt="" className="h-100" />
           </div>
         </div>
@@ -168,12 +200,18 @@ const Services = () => {
         <div className="">
           <div className="pb-12">
             <h1
+              data-aos="fade-up"
+              data-aos-delay="400"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"
             >
               Why Choose Us
             </h1>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
+          >
             {skillsData.map((skill) => (
               <div
                 key={skill.name}
@@ -198,17 +236,27 @@ const Services = () => {
         <div>
           <div className="space-y-4 pb-12">
             <p
+              data-aos="fade-up"
+              data-aos-delay="400"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"
             >
               What Our Clients Say About Us
             </p>
-            <p className="text-center sm:px-44">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="500"
+              className="text-center sm:px-44"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis iure consectetur tempora amet.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-black">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-black"
+          >
             {testimonialData.map((skill) => (
               <div
                 key={skill.name}
@@ -229,7 +277,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

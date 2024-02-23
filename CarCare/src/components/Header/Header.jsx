@@ -84,9 +84,7 @@ export default function Header() {
         </div>
       </nav>
       {isOpen && (
-        <div
-          className="block justify-between bg-slate-200 transform text-center items-center w-full lg:flex lg:w-auto lg:order-1"
-        >
+        <div className="block justify-between bg-slate-200 transform text-center items-center w-full lg:flex lg:w-auto lg:order-1">
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
               <NavLink
